@@ -45,9 +45,9 @@ deps = {
   "third_party/jsoncpp/source":
     "http://jsoncpp.svn.sourceforge.net/svnroot/jsoncpp/trunk/jsoncpp@248",
 
-  "third_party/junit/":
+#  "third_party/junit/":
     #(Var("googlecode_url") % "webrtc") + "/deps/third_party/junit@3367",
-    "https://github.com/junit-team/junit4.git",
+#    "https://github.com/junit-team/junit4.git",
 
   "third_party/libjpeg":
     Var("chromium_trunk") + "/src/third_party/libjpeg@" + Var("chromium_revision"),
